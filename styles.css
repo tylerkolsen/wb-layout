@@ -1,4 +1,4 @@
-html {
+body {
     background: url(https://spaceflightnow.com/wp-content/uploads/2022/03/soyuz-meridian-launch-1.jpg) no-repeat center center fixed;
     background-size: cover;
     background-color: white;
@@ -42,9 +42,18 @@ h2 {
 
 div.left-body {
     max-width: 500px;
+    margin-left: 50px;
+    
+}
+
+#first-page {
     position:absolute;
-    left: 50px;
     top: 550px;
+}
+
+#second-page {
+    position:absolute;
+    top: 1000px
 }
 
 .rewatch {
