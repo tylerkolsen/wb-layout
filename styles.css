@@ -18,12 +18,14 @@ header ul,
 header ul li {
     margin: 5px;
     display:inline-block;
+    vertical-align:middle;
 }
 
 ul.right-side-links {
     position:absolute;
     right: 0px;
     margin-right: 40px;
+    margin-top: 8px;
 }
 
 h4 {
@@ -51,4 +53,14 @@ div.left-body {
     padding: 20px;
     width: 150px;
     margin-top:30px;
+}
+
+.logo {
+    width: 225px;
+    height:auto;
+    margin: 0px 0px 0px 50px;
+}
+
+#hamburger {
+    height: 18px;
 }
